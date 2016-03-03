@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Moja strona</title>
+	</head>
+	<body>
+		<form action="kalkulator.php">
+			<label for="liczba1">Liczba1</label>
+			<input type="text" name="liczba1" size="10" id="liczba1">
+			<!-- <input type="text" name="dzialanie" size="1"> -->
+			<label for="dzialanie">Działanie</label>
+			<select name="dzialanie" id="dzialanie">
+				<option value="+">Dodaj</option>
+				<option value="-">Odejmij</option>
+				<option value="*">Mnóż</option>
+				<option value="/">Dziel</option>
+			</select>
+			<label for="liczba2">Liczba2</label>
+			<input type="text" name="liczba2" size="10" id="liczba2">
+			<input type="submit" value="Oblicz">
+		</form>
+	</body>
+</html>
